@@ -17,24 +17,29 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 <body>
 
 <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-<div class="w3-main" style="margin-top:50px;margin-left:170px;margin-right:170px;" text-align="justify">
+<div class="w3-main" style="margin-top:50px;margin-left:155px;margin-right:155px;" text-align="justify">
 
       <center>
       <h1 class="w3-text-teal">IIT-Mandi Indian Languages dataset</h1></center>
       <br/>
       <p>&emsp;&emsp;We provide two Indian languages datasets here. These datasets can be used for spoken language identification (LID) experiments. There are significant differences in the characteristics like channel, speaking style, speakers, etc., between these two datasets. Hence, they can be used for performing LID in domain-mismatched conditions also. The languages in the dataset are: Assamese, Gujarati, Kannada, Malayalam, Bengali, Hindi, Odia and Telugu.
       <br/><br/>
-      These datasets can be used for non-commercial reaserch works only.</p>
-      <h3 class="w3-text-teal">1. IIT Mandi Read speech dataset.</h3>
-      <p>&emsp;&emsp;This dataset contains read speech samples obtained from news broadcats (recorded inside studios in a controlled enviroment). These audio files were obtained from All India Radio website (http://newsonair.com/nsd-audio.aspx). In each language, there are samples from more than 15 speakers. About 4.5 hours of speech is available in each language. We have removed the background noise/music in most of the files. However, due to human error, some files can still contain some amount of backgroud noise. However, we belive that, this effect of noise can be safley ignored for training end-to-end LID networks.
+      Some general details about these Indian languages can be found <a href="https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India" target = "_blank"> here.</a>
       <br/><br/>
-      This dataset can be downloaded from <a href="https://cloud.iitmandi.ac.in/d/53fd75a59d75433f9e53/" target = "_blank"> here.</a></p>
+      These datasets can be used for non-commercial reaserch works only.</p>
+      <br/>
+      <h3 class="w3-text-teal">1. IIT Mandi Read speech dataset.</h3>
+      <p>&emsp;&emsp;This dataset contains read speech samples obtained from news broadcats (recorded inside studios in a controlled enviroment). These audio files were obtained from All India Radio website (<a href="http://newsonair.com/nsd-audio.aspx" target = "_blank">http://newsonair.com/nsd-audio.aspx</a>). In each language, there are atleast 15 speakers (in average 17 speakers). About 4.5 hours of speech is available in each language. The original files downloaded from this website contan some background music at the begining and end of each file. Though we have removed the background music in most of the files, there can be still few samples containing background music. However, number of such files are very less. 
+      <br/><br/>
+      This dataset can be downloaded from <a href="https://cloud.iitmandi.ac.in/d/c8e7775c49ea426c82c2/" target = "_blank"> here.</a></p>
       <br/>
       <h3 class="w3-text-teal">2. IIT Mandi YouTube speech dataset.</h3>
-      <br/>
-      <p>&emsp;&emsp;This dataset contains speech samples obtained from various YouTube videos on personal interviews and videos on online teaching (education). In each language, there are at least 10 speakers. Amount of speech available in each language is approximately 1 hour. These samples represents the samples collected in real-world environment. Some of the samples contain background noise.
+      <p>&emsp;&emsp;This dataset contains speech samples obtained from various YouTube videos on personal interviews and videos on online teaching (education). In each language, there are at least 10 speakers (10-14 speakers in each language). Amount of speech available in each language is approximately 1 hour. These samples represents the samples collected in real-world environment. Some of the samples contain background noise.
       <br/><br/>
-      This dataset can be downloaded <a href="https://cloud.iitmandi.ac.in/d/53fd75a59d75433f9e53/" target = "_blank"> here.</a></p>
+      This dataset can be downloaded <a href="https://cloud.iitmandi.ac.in/d/1212a97e5286448ab2d5/" target = "_blank"> here.</a>
+      <br/><br/>
+      If you need any additional information about these datasets, please contact: muralikrishna.h@gmail.com
+  	</p>
   
 <!-- END MAIN -->
 </div>
